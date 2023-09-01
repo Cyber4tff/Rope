@@ -28,7 +28,7 @@
 * Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
 
 ### Occluder
-<img src="(https://github.com/Hillobar/Rope/assets/63615199/fd4a0d96-f3f7-4e9d-8407-c8c20d80f5a2" width="150">
+<img src="https://github.com/Hillobar/Rope/assets/63615199/fd4a0d96-f3f7-4e9d-8407-c8c20d80f5a2" width="150">
 
 * Creates a mask of any objects that occlude the face. Good for auto masking hair. Not good for profile.
 * Click to toggle
