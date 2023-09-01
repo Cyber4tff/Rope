@@ -70,7 +70,7 @@
 * Swap all Target Faces with their assigned Source Faces
 * Click to toggle Swapping on/off
 
-## Target Faces
+## Source Faces
 ### Source Faces Folder
 <img src="https://github.com/Hillobar/Rope/assets/63615199/43a265c1-1e69-4f67-bed2-5efd7eeb4083" width="150">
 
@@ -96,6 +96,7 @@
 * Selects the Target Videos Folder
 * Click to open the file dialogue. Will automatically load the Target Videos once selected.
 
+## Program Options
 ### Load Folders and Swapper
 <img src="https://github.com/Hillobar/Rope/assets/63615199/fee2b645-1cdb-461e-adb7-f66442bf4adb" width="150">
 
