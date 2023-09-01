@@ -50,3 +50,29 @@
 
 * Sets the amount of blur for all of the masks
 * Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+## Target Faces
+### Find
+<img src="https://github.com/Hillobar/Rope/assets/63615199/0f3868af-1b69-4d6b-860c-7a6af6957e27" width="150">
+
+* Finds all faces in the current frame
+* Click to find faces
+
+### Clear
+<img src="https://github.com/Hillobar/Rope/assets/63615199/64b69528-db53-4d25-9570-4bd95189472e" width="150">
+
+* Clears all Target Faces
+* Click to clear faces
+
+### Swap
+<img src="https://github.com/Hillobar/Rope/assets/63615199/6896241f-11c2-4928-8848-372fc01be7bc" width="150">
+
+* Swap all Target Faces with their assigned Source Faces
+* Click to toggle Swapping on/off
+
+### Source Faces Folder
+<img src="https://github.com/Hillobar/Rope/assets/63615199/43a265c1-1e69-4f67-bed2-5efd7eeb4083" width="150">
+
+* Selects the Source Face Folder
+* Click to open the file dialogue. Will automatically load the Source Faces once selected.
+
