@@ -26,3 +26,27 @@
 
 * Sets the amount of blur for the Top Mask (and consequently Side Masks)
 * Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+### Occluder
+<img src="(https://github.com/Hillobar/Rope/assets/63615199/fd4a0d96-f3f7-4e9d-8407-c8c20d80f5a2" width="150">
+
+* Sets the amount of blur for the Top Mask (and consequently Side Masks)
+* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+### Mouth Parser
+<img src="https://github.com/Hillobar/Rope/assets/63615199/c0e5ecb4-2894-4593-86ba-24f39de588c4" width="150">
+
+* Sets the amount of blur for the Top Mask (and consequently Side Masks)
+* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+### Threshhold
+<img src="https://github.com/Hillobar/Rope/assets/63615199/a9a472c3-9246-427b-814a-bbba661d9288" width="150">
+
+* Sets the amount of blur for the Top Mask (and consequently Side Masks)
+* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+### Blur
+<img src="https://github.com/Hillobar/Rope/assets/63615199/d3e203e8-4561-4c3e-bdb3-cec6b01da954" width="150">
+
+* Sets the amount of blur for the Top Mask (and consequently Side Masks)
+* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
