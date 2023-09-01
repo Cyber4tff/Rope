@@ -30,23 +30,23 @@
 ### Occluder
 <img src="(https://github.com/Hillobar/Rope/assets/63615199/fd4a0d96-f3f7-4e9d-8407-c8c20d80f5a2" width="150">
 
-* Sets the amount of blur for the Top Mask (and consequently Side Masks)
-* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+* Creates a mask of any objects that occlude the face. Good for auto masking hair. Not good for profile.
+* Click to toggle
 
 ### Mouth Parser
 <img src="https://github.com/Hillobar/Rope/assets/63615199/c0e5ecb4-2894-4593-86ba-24f39de588c4" width="150">
 
-* Sets the amount of blur for the Top Mask (and consequently Side Masks)
-* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+* Creates a mask around the mouth from the original face and the swapped face. Good for talking. Not good for preserving likeness.
+* Click to toggle
 
 ### Threshhold
 <img src="https://github.com/Hillobar/Rope/assets/63615199/a9a472c3-9246-427b-814a-bbba661d9288" width="150">
 
-* Sets the amount of blur for the Top Mask (and consequently Side Masks)
-* Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+* Used by the swapper to determine if the Target Face matches any faces in the frame.
+* Scroll the mousewheel to change the strength (85% default, lower is stricter, higher is less restrictive). If you are swapping two or more different Target Faces and they sometimes switch around, lower the value until they are applying correctly. Click the button to toggle applying to all faces. 
 
 ### Blur
 <img src="https://github.com/Hillobar/Rope/assets/63615199/d3e203e8-4561-4c3e-bdb3-cec6b01da954" width="150">
 
-* Sets the amount of blur for the Top Mask (and consequently Side Masks)
+* Sets the amount of blur for all of the masks
 * Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
