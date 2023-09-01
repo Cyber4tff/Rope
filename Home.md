@@ -70,9 +70,38 @@
 * Swap all Target Faces with their assigned Source Faces
 * Click to toggle Swapping on/off
 
+## Target Faces
 ### Source Faces Folder
 <img src="https://github.com/Hillobar/Rope/assets/63615199/43a265c1-1e69-4f67-bed2-5efd7eeb4083" width="150">
 
 * Selects the Source Face Folder
 * Click to open the file dialogue. Will automatically load the Source Faces once selected.
+
+### Merged Source Face Text
+<img src="https://github.com/Hillobar/Rope/assets/63615199/ee6affdf-a8fd-4db1-9147-8dd6cda079c0" width="150">
+
+* Text field to name merged Source Faces
+* Select multiple Source Faces by holding shift. Once highlighted name them in this text field and hit <Enter>. The new Merged Source Face will be added to the Source Faces
+
+### Merged Source Face Delete
+<img src="https://github.com/Hillobar/Rope/assets/63615199/3885d0e9-9cc6-4543-8681-190d27ad7794" width="150">
+
+* Deletes the selected Merged Source Face
+* Select a Merged Source Face. Click the button to delete.
+
+## Target Videos
+### Target Video Folder
+<img src="https://github.com/Hillobar/Rope/assets/63615199/a4ca6cf2-095a-4fba-9531-9f9f668bdffe" width="150">
+
+* Selects the Target Videos Folder
+* Click to open the file dialogue. Will automatically load the Target Videos once selected.
+
+### Load Folders and Swapper
+<img src="https://github.com/Hillobar/Rope/assets/63615199/fee2b645-1cdb-461e-adb7-f66442bf4adb" width="150">
+
+* Loads up all the necessary data to start swapping
+* Click to load. Loads in Target Videos, Source Faces, and the Swapper model
+
+
+
 
