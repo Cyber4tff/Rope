@@ -1,5 +1,5 @@
 # Overview
-![image](https://github.com/Hillobar/Rope/assets/63615199/598f02c9-3680-4717-af2e-0ed2256ebd47)
+![image](https://github.com/Hillobar/Rope/assets/63615199/7b27274b-aa56-401f-8d74-d0172a4f30a5)
 
 # Interface Options
 ## Face Options
