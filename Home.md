@@ -6,12 +6,12 @@
 ![image](https://github.com/Hillobar/Rope/assets/63615199/137badd0-eee3-4101-bc51-ba453caeabca)
 
 * First time use:
-> 1. Select your Source Faces Folder
-> 2. Select your Target Videos Folder
-> 3. Select your Output Folder
-> 4 Click Load Folders
+ 1. Select your Source Faces Folder
+ 2. Select your Target Videos Folder
+ 3. Select your Output Folder
+ 4. Click Load Folders
 * Subsequent uses 
-> 4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
+ 4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
 
 ## Swap
 ![image](https://github.com/Hillobar/Rope/assets/63615199/adbd042f-0a7b-4d3a-9f36-674d502965c3)
@@ -24,21 +24,21 @@
 
 ##  Source Face Shortcut
 * Create
-> 1. Select a Source Face (hold <shift> to select multiple Source Faces)
-> 2. Type in a name, hit <enter>
+1. Select a Source Face (hold <shift> to select multiple Source Faces)
+2. Type in a name, hit <enter>
 * Delete
-> 3. Select a Source Face Shortcut
-> 4. Click Delete
+3. Select a Source Face Shortcut
+4. Click Delete
 
 ## Record/Play
 1. Arm/Disarm Record
 2. Play. If Record is armed, then it will record and save to the Output folder
-> * Press Play again to stop Playing or Recording
+  * Press Play again to stop Playing or Recording
 
 ## Merge Source Faces
 * Select multiple Source Faces by holding down <shift>
-> * Selecting multiple, different images of the same person can improve likeness.
-> * Selecting different people will create an average of the selected faces
+  * Selecting multiple, different images of the same person can improve likeness.
+  * Selecting different people will create an average of the selected faces
 
 # Interface Options
 ## Face Options
@@ -65,6 +65,14 @@
 
 * Sets the amount of blur for the Top Mask (and consequently Side Masks)
 * Scroll the mousewheel to change the strength (0% = no blur, 100% = high blur)
+
+### CLIP
+<img src="https://github.com/Hillobar/Rope/assets/63615199/12b9578a-cd8f-45f6-818e-970ef94e0ddd" width="150">
+
+* Create masks based on text input
+* Enter text in field. E.g., cup
+* Click on CLIP button to toggle on/off
+* Scroll the mouse wheel to adjust word strength (higher is stronger)
 
 ### Occluder
 <img src="https://github.com/Hillobar/Rope/assets/63615199/fd4a0d96-f3f7-4e9d-8407-c8c20d80f5a2" width="150">
@@ -116,17 +124,17 @@
 * Selects the Source Face Folder
 * Click to open the file dialogue. Will automatically load the Source Faces once selected.
 
-### Merged Source Face Text
+### Source Face Shortcut Text
 <img src="https://github.com/Hillobar/Rope/assets/63615199/ee6affdf-a8fd-4db1-9147-8dd6cda079c0" width="150">
 
-* Text field to name merged Source Faces
-* Select multiple Source Faces by holding shift. Once highlighted name them in this text field and hit <Enter>. The new Merged Source Face will be added to the Source Faces
+* Text field to name Source Face Shortcut
+* Select Source Face (select multiple with <shift>). Once highlighted, name them in this text field and hit <enter>. The new Source Face Shortcut will be added to the Source Faces
 
-### Merged Source Face Delete
+### Source Face Sortcut Delete
 <img src="https://github.com/Hillobar/Rope/assets/63615199/3885d0e9-9cc6-4543-8681-190d27ad7794" width="150">
 
-* Deletes the selected Merged Source Face
-* Select a Merged Source Face. Click the button to delete.
+* Deletes the selected Source Face Shortcut
+* Select a Source Face Shortcut. Click the button to delete.
 
 ## Target Videos
 ### Target Video Folder
