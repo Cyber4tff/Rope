@@ -49,15 +49,15 @@ Note: It's only configured for CUDA (Nvidia)
 1. Select a Target Video (mousewheel scroll the Target Videos)
 2. Move to a video frame with faces in it and click Find
 3. Select a found Target Faces (mousewheel scroll the Target Faces)
-4. Select a Source Face (hold <shift> to select multiple Source Faces), (mousewheel scroll the Source Faces), (mousewheel scroll in the Video Player to iterate through the Source Faces)
+4. Select a Source Face (hold shift to select multiple Source Faces), (mousewheel scroll the Source Faces), (mousewheel scroll in the Video Player to iterate through the Source Faces)
 5. Click Swap
 
 ##  Source Face Shortcut
 ![image](https://github.com/Hillobar/Rope/assets/63615199/5aaebe15-5709-4101-a0ba-5cf4ac2f54ee)
 
 * Create
-1. Select a Source Face (hold <shift> to select multiple Source Faces)
-2. Type in a name, hit <enter>
+1. Select a Source Face (hold shift to select multiple Source Faces)
+2. Type in a name, hit enter
 * Delete
 3. Select a Source Face Shortcut
 4. Click Delete
@@ -70,7 +70,7 @@ Note: It's only configured for CUDA (Nvidia)
   * Press Play again to stop Playing or Recording
 
 ## Merge Source Faces
-* Select multiple Source Faces by holding down <shift>
+* Select multiple Source Faces by holding down shift
   * Selecting multiple, different images of the same person can improve likeness.
   * Selecting different people will create an average of the selected faces
 
@@ -162,7 +162,7 @@ Note: It's only configured for CUDA (Nvidia)
 <img src="https://github.com/Hillobar/Rope/assets/63615199/ee6affdf-a8fd-4db1-9147-8dd6cda079c0" width="150">
 
 * Text field to name Source Face Shortcut
-* Select Source Face (select multiple with <shift>). Once highlighted, name them in this text field and hit <enter>. The new Source Face Shortcut will be added to the Source Faces
+* Select Source Face (select multiple with shift). Once highlighted, name them in this text field and hit enter. The new Source Face Shortcut will be added to the Source Faces
 
 ### Source Face Sortcut Delete
 <img src="https://github.com/Hillobar/Rope/assets/63615199/3885d0e9-9cc6-4543-8681-190d27ad7794" width="150">
