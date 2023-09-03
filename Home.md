@@ -1,6 +1,45 @@
 # Overview
 ![image](https://github.com/Hillobar/Rope/assets/63615199/7b27274b-aa56-401f-8d74-d0172a4f30a5)
 
+# How to - 
+## Startup
+![image](https://github.com/Hillobar/Rope/assets/63615199/137badd0-eee3-4101-bc51-ba453caeabca)
+
+* First time use:
+> 1. Select your Source Faces Folder
+> 2. Select your Target Videos Folder
+> 3. Select your Output Folder
+> 4 Click Load Folders
+* Subsequent uses 
+> 4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
+
+## Swap
+![image](https://github.com/Hillobar/Rope/assets/63615199/adbd042f-0a7b-4d3a-9f36-674d502965c3)
+
+1. Select a Target Video
+2. Move to a video frame with faces in it and click Find
+3. Select a found Target Faces
+4. Select a Source Face (hold <shift> to select multiple Source Faces)
+5. Click Swap
+
+##  Source Face Shortcut
+* Create
+> 1. Select a Source Face (hold <shift> to select multiple Source Faces)
+> 2. Type in a name, hit <enter>
+* Delete
+> 3. Select a Source Face Shortcut
+> 4. Click Delete
+
+## Record/Play
+1. Arm/Disarm Record
+2. Play. If Record is armed, then it will record and save to the Output folder
+> * Press Play again to stop Playing or Recording
+
+## Merge Source Faces
+* Select multiple Source Faces by holding down <shift>
+> * Selecting multiple, different images of the same person can improve likeness.
+> * Selecting different people will create an average of the selected faces
+
 # Interface Options
 ## Face Options
 ### GFPGAN
