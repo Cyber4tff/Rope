@@ -53,6 +53,8 @@ Note: It's only configured for CUDA (Nvidia)
 5. Click Swap
 
 ##  Source Face Shortcut
+![image](https://github.com/Hillobar/Rope/assets/63615199/5aaebe15-5709-4101-a0ba-5cf4ac2f54ee)
+
 * Create
 1. Select a Source Face (hold <shift> to select multiple Source Faces)
 2. Type in a name, hit <enter>
@@ -61,6 +63,8 @@ Note: It's only configured for CUDA (Nvidia)
 4. Click Delete
 
 ## Record/Play
+![image](https://github.com/Hillobar/Rope/assets/63615199/0ba825f5-dcb6-4f9a-a3a6-66d780dc0c78)
+
 1. Arm/Disarm Record
 2. Play. If Record is armed, then it will record and save to the Output folder
   * Press Play again to stop Playing or Recording
