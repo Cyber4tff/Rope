@@ -4,6 +4,14 @@
 # How to - 
 ## Install
 Note: It's only configured for CUDA (Nvidia)
+### Reuse Rope-Space Worm venv Install
+* Go to your current Rope-Space Worm directory
+* Delete everything except the venv directory, and the [GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), and [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt) model files
+* Copy in Rope-Crystal files. You should have Rope.bat, requirements.txt, and Rope.py files, and models, rope, and venv folders in this directory, along with the model files
+* Move the model files ([GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), and [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt)) to the models directory
+* Double-click on Rope.bat!
+
+### Clean Install
 * Copy Github files to a local directory
 * Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and two folders)
 * Right click and select 'Open in Terminal' (or open CMD and navigate there)
