@@ -104,7 +104,7 @@ Note: It's only configured for CUDA (Nvidia)
 <img src="https://github.com/Hillobar/Rope/assets/63615199/12b9578a-cd8f-45f6-818e-970ef94e0ddd" width="150">
 
 * Create masks based on text input
-* Enter text in field. E.g., cup
+* Enter text in field separated by commas. E.g., cup,hand
 * Click on CLIP button to toggle on/off
 * Scroll the mouse wheel to adjust word strength (higher is stronger)
 
