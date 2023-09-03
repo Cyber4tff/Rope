@@ -2,6 +2,26 @@
 ![image](https://github.com/Hillobar/Rope/assets/63615199/7b27274b-aa56-401f-8d74-d0172a4f30a5)
 
 # How to - 
+## Install
+Note: It's only configured for CUDA (Nvidia)
+* Copy Github files to a local directory
+* Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and two folders)
+* Right click and select 'Open in Terminal' (or open CMD and navigate there)
+* Set up a local venv
+  * python.exe -m venv venv
+* Activate your new venv
+  * .\venv\Scripts\activate
+* Install requirements
+  * .\venv\Scripts\pip.exe install -r .\requirements.txt
+* Place [GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), and [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt) in the models\ folder
+* Do this if you've never installed roop or Rope (or any other onnx runtimes):
+  * Install FFMPEG
+  * Install CUDA Toolkit 11.8
+  * Install dependencies:
+  * pip uninstall onnxruntime onnxruntime-gpu
+  * pip install onnxruntime-gpu==1.15.1
+* Double-click on Rope.bat!
+
 ## Startup
 ![image](https://github.com/Hillobar/Rope/assets/63615199/137badd0-eee3-4101-bc51-ba453caeabca)
 
@@ -12,14 +32,15 @@
  4. Click Load Folders
 * Subsequent uses 
  4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
+* Models are now only loaded when you initialize them the first time. GFPGAN, CLIP, Occluder, and Mouth Parser are not loaded into memory until you click them. If you have lower memory, you should be able to now run more threads if you don't enable them.
 
 ## Swap
 ![image](https://github.com/Hillobar/Rope/assets/63615199/adbd042f-0a7b-4d3a-9f36-674d502965c3)
 
-1. Select a Target Video
+1. Select a Target Video (mousewheel scroll the Target Videos)
 2. Move to a video frame with faces in it and click Find
-3. Select a found Target Faces
-4. Select a Source Face (hold <shift> to select multiple Source Faces)
+3. Select a found Target Faces (mousewheel scroll the Target Faces)
+4. Select a Source Face (hold <shift> to select multiple Source Faces), (mousewheel scroll the Source Faces), (mousewheel scroll in the Video Player to iterate through the Source Faces)
 5. Click Swap
 
 ##  Source Face Shortcut
@@ -150,6 +171,16 @@
 * Loads up all the necessary data to start swapping
 * Click to load. Loads in Target Videos, Source Faces, and the Swapper model
 
-
+## Changelog ##
+### Changes for Rope - Space Worm: ###
+* Updated video rendering to use Target Video parameters
+* Mousewheel scroll on the time bar to control frame position
+* Added an occluder model (experimental, very fast, make sure you download the new model-link below)
+* Greatly increased performance for larger videos/multiple faces
+* CLIP crashing fixed. Add as many words as you like!
+* Detachable video preview
+* Fixed most bugs related to changing options while playing. Adjust setting on the fly!
+* GFPGAN now renders up to 512x512
+* Status bar (still adding features to this)
 
 
