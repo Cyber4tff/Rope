@@ -27,7 +27,7 @@ Note: It's only configured for CUDA (Nvidia)
   * Install FFMPEG
   * Install CUDA Toolkit 11.8
   * Install dependencies:
-  * pip uninstall onnxruntime onnxruntime-gpu
+  * pip uninstall onnxruntime onnxruntime
   * pip install onnxruntime-gpu==1.15.1
 * Double-click on Rope.bat!
 
