@@ -182,6 +182,19 @@ Note: It's only configured for CUDA (Nvidia)
 * Click to load. Loads in Target Videos, Source Faces, and the Swapper model
 
 ## Changelog ##
+### (2023-09-03) Changes for Rope - Crystal: ###
+* New, slightly improved GUI
+* Merged Source Faces. Select multiple Source Faces to create an average Source Face result. Combine different people to create a blend, or select the same person from different Source Faces to improve the likeness of the person
+* Source Faces Shortcuts to always have access to your favorite faces. Works with Merged Source Faces too!
+* Improvements to layout for workflow efficiency
+* Improvements to Target/Source Face selection for workflow efficiency
+* Mousescroll on Target/Source Faces and Target Videos
+* Much lower memory requirements (only 2.7GB if you don't enable GFPGAN, CLIP, etc.)
+* Mouse scrolling in the video player cycles through the Source Faces for the selected Target Face. Quickly view your Source Faces against the Target Face!
+* More speed improvements. Results below. I'll start tracking benchmarks for each release
+* (experimental) Mouth parser. Another occlusion tool just for the mouth area. Improves dialogue and lip sync, but will replace the Source Face mouth.
+* Bug fixes
+
 ### Changes for Rope - Space Worm: ###
 * Updated video rendering to use Target Video parameters
 * Mousewheel scroll on the time bar to control frame position
