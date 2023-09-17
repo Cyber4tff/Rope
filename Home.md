@@ -4,17 +4,9 @@
 # How to - 
 ## Install
 Note: It's only configured for CUDA (Nvidia)
-### Reuse Rope-Space Worm venv Install
-* Go to your current Rope-Space Worm directory
-* Delete everything except the venv directory, and the [GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), and [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt) model files
-* Copy in Rope-Crystal files. You should have Rope.bat, requirements.txt, and Rope.py files, and models, rope, and venv folders in this directory, along with the model files
-* Download [79999_iter.pth](https://github.com/Hillobar/Rope/releases/download/Crystal/79999_iter.pth) and [epoch_16_best.ckpt](https://github.com/Hillobar/Rope/releases/download/Crystal/epoch_16_best.ckpt) model files
-* Move the model files ([GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt), [79999_iter.pth](https://github.com/Hillobar/Rope/releases/download/Crystal/79999_iter.pth), and [epoch_16_best.ckpt](https://github.com/Hillobar/Rope/releases/download/Crystal/epoch_16_best.ckpt)) to the models directory
-* Double-click on Rope.bat!
 
-### Clean Install
 * Copy Github files to a local directory
-* Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and two folders)
+* Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and folders)
 * Right click and select 'Open in Terminal' (or open CMD and navigate there)
 * Set up a local venv
   * python.exe -m venv venv
@@ -22,7 +14,8 @@ Note: It's only configured for CUDA (Nvidia)
   * .\venv\Scripts\activate
 * Install requirements
   * .\venv\Scripts\pip.exe install -r .\requirements.txt
-* Place [GFPGANv1.4.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/GFPGANv1.4.onnx), [inswapper_128_fp16.onnx](https://github.com/Hillobar/Rope/releases/download/Space_Worm/inswapper_128.fp16.onnx), [occluder.ckpt](https://github.com/Hillobar/Rope/releases/download/Space_Worm/occluder.ckpt), [79999_iter.pth](https://github.com/Hillobar/Rope/releases/download/Crystal/79999_iter.pth), and [epoch_16_best.ckpt](https://github.com/Hillobar/Rope/releases/download/Crystal/epoch_16_best.ckpt) in the models\ folder
+* [Download the models](https://github.com/Hillobar/Rope/releases/download/Crystal_Shard/models.zip)
+* Unzip models.zip and place the all of the model files into the models\ folder
 * Do this if you've never installed roop or Rope (or any other onnx runtimes):
   * Install FFMPEG
   * Install CUDA Toolkit 11.8
