@@ -66,11 +66,11 @@ Note: It's only configured for CUDA (Nvidia)
 
 # Interface Options
 ## Face Options
-### GFPGAN
+### GFPGAN / Codeformer
 <img src="https://github.com/Hillobar/Rope/assets/63615199/a9eda3b0-1106-4213-9ea4-1e146e7e3ddd" width="150">
 
 * Increases the resolution of the Face
-* Click to toggle on/off. Scroll the mousewheel to change the strength (0% = off, 100% = full strength)
+* Left click to toggle on/off. Right Click to toggle GFPGAN or Codeformer. Scroll the mousewheel to change the strength (0% = off, 100% = full strength)
 
 ### Difference
 <img src="https://github.com/Hillobar/Rope/assets/63615199/0d54ab59-c284-4249-b50e-76b1969aa189" width="150">
