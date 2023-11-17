@@ -14,7 +14,7 @@ Note: It's only configured for CUDA (Nvidia)
   * .\venv\Scripts\activate
 * Install requirements
   * .\venv\Scripts\pip.exe install -r .\requirements.txt
-* [Download the models](https://github.com/Hillobar/Rope/releases/download/Crystal_Shard/models.zip)
+* [Download the models](https://github.com/Hillobar/Rope/releases/download/Sapphire/models.zip)
 * Unzip models.zip and place the all of the model files into the models\ folder
 * Do this if you've never installed roop or Rope (or any other onnx runtimes):
   * Install FFMPEG
