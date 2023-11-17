@@ -175,6 +175,22 @@ Note: It's only configured for CUDA (Nvidia)
 * Click to load. Loads in Target Videos, Source Faces, and the Swapper model
 
 ## Changelog ##
+Fun Stuff:
+* Added mousewheel function to Mouth Parser to adjust the size of the mask
+* Added Codeformer as an enhancer option. Codeformer does a noticeably better job with skin textures, but runs slower. Right-click on the button to toggle Codeformer or GFPGAN. Note: Codeformer takes 15-30 secondfs to load the first time.
+
+Boring Stuff:
+* Mouth Parser and Occluder now use onnxruntime instead of PyTorch. Hopefully this will solve issues with AMD cpu users
+* InsightFace libraries have been removed as a dependency
+* Dependencies have been updated and aligned
+* Performance increase
+* Swapping is now automatically toggled off when dragging the timeline slider. this is to make it more responsive. It will automatically toggle the swap back on once you stop dragging if you had swap on to begin with.
+
+Bug Fixes:
+* Fixed bug when dragging the Video timeline. It can now be moved when playing
+* Fixed several remaining bugs with recording 
+* Fixed right click behavior on the video player slider
+
 ### (2023-09-03) Changes for Rope - Crystal: ###
 * New, slightly improved GUI
 * Merged Source Faces. Select multiple Source Faces to create an average Source Face result. Combine different people to create a blend, or select the same person from different Source Faces to improve the likeness of the person
