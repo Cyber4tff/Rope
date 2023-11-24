@@ -19,6 +19,7 @@ Note: It's only configured for CUDA (Nvidia)
 * Do this if you've never installed roop or Rope (or any other onnx runtimes):
   * Install FFMPEG
   * Install CUDA Toolkit 11.8
+  * Install cuDNN v8.5.0.96 from [here](https://developer.nvidia.com/rdp/cudnn-archive)
 * Double-click on Rope.bat!
 
 ## Startup
