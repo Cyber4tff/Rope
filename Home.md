@@ -14,7 +14,7 @@ Note: It's only configured for CUDA (Nvidia)
   * .\venv\Scripts\activate
 * Install requirements
   * .\venv\Scripts\pip.exe install -r .\requirements.txt
-* [Download the models](https://github.com/Hillobar/Rope/releases/download/Sapphire/models.zip) and [GFPGAN](https://github.com/Hillobar/Rope/releases/download/Sapphire/GFPGANv1.4.onnx)
+* [Download the models from here](https://github.com/Hillobar/Rope/releases/tag/Sapphire). Either download the models file, which has all of the model files in it, or just grab the ones you missing in the list.
 * Unzip models.zip and place the all of the model files into the models\ folder
 * Do this if you've never installed roop or Rope (or any other onnx runtimes):
   * Install FFMPEG
