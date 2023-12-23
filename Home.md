@@ -1,9 +1,9 @@
 # Overview
-![image](https://github.com/Hillobar/Rope/assets/63615199/7b27274b-aa56-401f-8d74-d0172a4f30a5)
+![Screenshot 2023-12-22 212639](https://github.com/Hillobar/Rope/assets/63615199/40ca8188-4195-44e7-bf04-94cc1436211c)
 
 # How to - 
 ## Install
-Note: It's only configured for CUDA (Nvidia)
+Note: It's only configured for Windows/CUDA (Nvidia), and must use Python 3.10
 
 * Copy Github files to a local directory
 * Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and folders)
