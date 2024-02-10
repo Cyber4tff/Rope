@@ -22,8 +22,6 @@ Note: It's only configured for Windows/CUDA (Nvidia), and must use Python 3.10
 * Double-click on Rope.bat!
 
 ## Startup
-![image](https://github.com/Hillobar/Rope/assets/63615199/137badd0-eee3-4101-bc51-ba453caeabca)
-
 * First time use:
  1. Select your Source Faces Folder
  2. Select your Target Videos Folder
@@ -32,4 +30,17 @@ Note: It's only configured for Windows/CUDA (Nvidia), and must use Python 3.10
 * Subsequent uses 
  4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
 * Models are only loaded when you initialize them the first time. GFPGAN, CLIP, Occluder, and Mouth Parser are not loaded into memory until you click them. If you have lower memory, you should be able to now run more threads if you don't enable them.
+
+## Using
+* Set your folders if needed
+* Click 'Start Rope'
+* Select a Video
+* Scroll to a frame with faces you want to swap
+* Click 'Find Faces'
+* Select the Found Face
+* Select an Input Face or Merged Face. This assigns it to the Found face. You can shift-click multiple Input Faces to blend them.
+* Select another Found Face and assign if you have more in the frame.
+* Click 'Swap'
+* All done! Now you can Play/Record/Adjust/etc.
+
 
