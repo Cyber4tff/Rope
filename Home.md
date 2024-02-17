@@ -1,57 +1,10 @@
-# Overview
-
-# How to - 
-## Install
-Note: It's only configured for Windows/CUDA (Nvidia), and must use Python 3.10
-
-* Copy Github files to a local directory
-* Navigate to the Rope main directory (you will see requirements.txt, Rope.bat, Rope.py, and folders)
-* Right click and select 'Open in Terminal' (or open CMD and navigate there)
-* Set up a local venv
-  * python.exe -m venv venv
-* Activate your new venv
-  * .\venv\Scripts\activate
-* Install requirements
-  * .\venv\Scripts\pip.exe install -r .\requirements.txt
-* [Download the models from here](https://github.com/Hillobar/Rope/releases/tag/Sapphire). Either download the models file, which has all of the model files in it, or just grab the ones you're missing in the list.
-* Unzip models.zip and place the all of the model files into the models\ folder
-* Do this if you've never installed roop or Rope (or any other onnx runtimes):
-  * Install FFMPEG
-  * Install CUDA Toolkit 11.8
-  * Install cuDNN v8.5 for CUDA 11.x from [here](https://developer.nvidia.com/rdp/cudnn-archive)
-* Double-click on Rope.bat!
-
-## Startup
-* First time use:
- 1. Select your Source Faces Folder
- 2. Select your Target Videos Folder
- 3. Select your Output Folder
- 4. Click Start Rope
-* Subsequent uses 
- 4. Click Load Folders. 1, 2, and 3 will be remembered from the last time Rope was used.
-* Models are only loaded when you initialize them the first time. GFPGAN, CLIP, Occluder, and Mouth Parser are not loaded into memory until you click them. If you have lower memory, you should be able to now run more threads if you don't enable them.
-
-## Using
-* Set your folders if needed
-* Click 'Start Rope'
-* Select a Video
-* Scroll to a frame with faces you want to swap
-* Click 'Find Faces'
-* Select the Found Face
-* Select an Input Face or Merged Face. This assigns it to the Found face. You can shift-click multiple Input Faces to blend them.
-* Select another Found Face and assign if you have more in the frame.
-* Click 'Swap'
-* All done! Now you can Play/Record/Adjust/etc.
-
 In this entry of the wiki we will discuss the setup and usage instructions for Rope.  It will guide from start to a face-swapped video.
-
 
 
 ## [](https://github.com/Hillobar/Rope/wiki#install) Installation
 
 **Disclaimer**:
 This repository is only intended for use on Windows (with Nvidia CUDA). If you're using Linux, please refer to [GitHub - aquawaves/Rope-experimental: GUI-focused roop with Linux support](https://github.com/aquawaves/Rope-experimental).
-
 
 
 1. Clone the repository to your device:
@@ -102,7 +55,7 @@ Make sure that you install the virtual environment with the correct python versi
 3. Download and install 3rd-party dependencies
 - Install the models
   
-    - **To get access to all the features of Rope**, you need to [download the models from here](https://github.com/Hillobar/Rope/releases/tag/Sapphire). Either download the models file, which has all of the model files in it, or just grab the ones you're missing in the list.
+    - **To get access to all the features of Rope**, you need to [download the models from here](https://github.com/Hillobar/Rope/releases/tag/Sapphire). You need all of the files.
   
     - Place the downloaded model files in the `Rope/models` folder
   
@@ -155,31 +108,29 @@ git reset --hard origin/master
 
 2. Start the Rope backend by clicking on the button `Start Rope`
 
-3. Select the source video and template face
-   
-    1. Shift-click multiple template faces to use a blended version
+3. Select the Input Video
 
-4. Swap the face in the live editor
+4. Swap the face in the live preview
    
     1. Scroll to a frame with the face you want to swap
-   
     2. Scan contained faces by clicking `Find Faces` 
+    3. Select the desired face that was found
+    4. Select an Input Face to assign to the Found Face that is highlighted
+         1. Shift-click multiple Input Faces to use a blended version
+
+    5. Click `Swap Faces` to see the changes in the video preview
    
-    3. Select the desired face
-   
-    4. Click `Swap Faces` to see the changes in the video player
-   
-    5. (Optional) Apply filters like the Restorer module to modify the results
+    6. (Optional) Apply filters like the Restorer model to modify and improve the results
 
 5. Export the video to disk
    
-    1. Go to the starting frame of your clip
+    1. Go to the starting frame of your video
    
     2. Press `Record` to arm the `Play` button for recording
    
     3. Press the `Play` button to start the recording
    
-    4. If satisfied, press `Play` again to stop the recording 
+    4. Press `Play` again to stop the recording, or wait for the video to reach the end
 
 
 
