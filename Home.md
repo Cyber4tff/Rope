@@ -8,7 +8,7 @@ This repository is only intended for use on Windows (with Nvidia CUDA). If you'r
 
 1. Select a folder, or create one (not /system32). Once you're in that folder, you can right-click it and select, 'Open in Terminal'
 
-2. Clone the repository to your computer. Select a user-created folder:
+2. Clone the repository to your folder:
 
 ```
 git clone https://github.com/Hillobar/Rope
