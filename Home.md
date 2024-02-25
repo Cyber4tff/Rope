@@ -54,7 +54,7 @@ Make sure that you install the virtual environment with the correct python versi
 
 
 
-3. Download and install 3rd-party dependencies
+4. Download and install 3rd-party dependencies
 - Install the models
   
     - **To get access to all the features of Rope**, you need to [download the models from here](https://github.com/Hillobar/Rope/releases/tag/Sapphire). You need all of the files.
