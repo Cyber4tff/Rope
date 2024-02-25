@@ -6,17 +6,19 @@ In this entry of the wiki we will discuss the setup and usage instructions for R
 **Disclaimer**:
 This repository is only intended for use on Windows (with Nvidia CUDA). If you're using Linux, please refer to [GitHub - aquawaves/Rope-experimental: GUI-focused roop with Linux support](https://github.com/aquawaves/Rope-experimental).
 
+1. Select a folder, or create one (not /system32). Once you're in that folder, you can right-click it and select, 'Open in Terminal'
 
-1. Clone the repository to your device:
+2. Clone the repository to your computer. Select a user-created folder:
 
 ```
 git clone https://github.com/Hillobar/Rope
 cd Rope
 ```
+or, 
 
+Download the .zip from Github and unzip to your folder
 
-
-2. Set up a local venv 
+3. Set up a local venv. Inside CMD, make sure you are in the Rope folder. you should have /rope, /models, as subfolders.
 
 ```
 # create the virtual environment
